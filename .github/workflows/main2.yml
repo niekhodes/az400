@@ -18,6 +18,5 @@ jobs:
               with:
                   subscriptionId: eb831612-0821-4230-93d6-c2d75bb96018
                   resourceGroupName: az-400                  
-                  template: ./main.bicep
-                  parameters: storagePrefix=stg
+                  template: ./Deploy.bicep
                   failOnStdErr: false
